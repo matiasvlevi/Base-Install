@@ -11,15 +11,17 @@ sudo usermod -a -G gpio pi ;
 echo "Enabled GPIO pin access." ;
 echo ;
 
-# Installing Base software
 echo "Installing base software...";
+echo ;
+
+# Install pip3
 if ! type "pip3" > /dev/null; then
     echo "Installing python3-pip";
     sudo apt-get install python3-pip -y ;
-    echo "pip3 successfully installed." ;
+    echo "python3-pip successfully installed." ;
     echo "Try 'pip3 -V'" ;
 else
-    echo "pip3 allready installed..." ;
+    echo "python3-pip allready installed." ;
     echo "Try 'pip3 -V'" ;
 fi
 echo ;
@@ -39,7 +41,7 @@ if ! type "git" > /dev/null; then
     echo "git successfully installed." ;
     echo "Try 'git --version'" ;
 else
-    echo "git allready installed..." ;
+    echo "git allready installed." ;
     echo "Try 'git --version'" ;
 fi
 echo ;
@@ -51,7 +53,7 @@ if ! type "nmap" > /dev/null; then
     echo "nmap successfully installed." ;
     echo "Try 'nmap -v'" ;
 else
-    echo "nmap allready installed..." ;
+    echo "nmap allready installed." ;
     echo "Try 'nmap -v'" ;
 fi
 echo ;
@@ -72,10 +74,9 @@ if ! type "node" > /dev/null; then
     echo "Installed npm & node.js" ;
     echo "Try 'node -v' or 'npm -v'." ;
 else
-    echo "npm & node.js allready installed..." ;
+    echo "npm & node.js allready installed." ;
     echo "Try 'node -v' or 'npm -v'." ;
 fi
-
 echo ;
 echo "Installed all base software."
 
