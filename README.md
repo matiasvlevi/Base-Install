@@ -19,7 +19,15 @@
 <br/>
 
 ## Usage
-in root directory.
+###### Step 1
+in root directory install shell script:
 ```sh
-
+curl -o base.sh https://raw.githubusercontent.com/matiasvlevi/Base-Install/main/base.sh
 ```
+###### Step 2
+Run shell script:
+```sh
+sudo source base.sh
+```
+
+Takes ~10 to 20 minutes to install...
