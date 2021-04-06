@@ -30,4 +30,4 @@ Run shell script:
 sudo source base.sh
 ```
 
-Takes ~10 to 20 minutes to install...
+Takes ~10 to 20 minutes to complete installation.
