@@ -10,6 +10,8 @@ sudo apt-get install python3-pip -y ;
 echo ;
 echo "Installing pip3 module RPi.GPIO " ;
 sudo pip3 install RPi.GPIO ;
+echo ;
+echo "Installing pip3 module numpy " ;
 sudo pip3 install numpy ;
 
 echo ;
@@ -38,7 +40,6 @@ echo "Try 'node -v' or 'npm -v'." ;
 
 # Enable GPIO pins & install pinout.
 echo "Enabling GPIO pin access..." ;
-sudo apt-get install pinout -y ;
 sudo usermod -a -G gpio pi ;
 echo ;
 echo ;

@@ -9,10 +9,9 @@ Shell script installing base software for Raspberry Pi's.
 ##### Installs:
 * python3-pip
 * git
-* pinout
 * nmap
-* npm
-* nodejs
+* npm (armv6l distribution)
+* nodejs (armv6l distribution)
 
 ##### pip3 modules installs:
 * RPi.GPIO
@@ -29,7 +28,7 @@ curl -o base.sh https://raw.githubusercontent.com/matiasvlevi/Base-Install/main/
 ###### Step 2
 Run shell script:
 ```sh
-sudo source base.sh
+sudo sh base.sh
 ```
 
-Takes ~10 to 20 minutes to complete installation.
+Takes ~5 to 15 minutes to complete installation.
