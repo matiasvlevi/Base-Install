@@ -10,6 +10,7 @@ sudo apt-get install python3-pip -y ;
 echo ;
 echo "Installing pip3 module RPi.GPIO " ;
 sudo pip3 install RPi.GPIO ;
+sudo pip3 install numpy ;
 
 echo ;
 echo "Installing git";

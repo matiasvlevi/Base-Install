@@ -16,6 +16,7 @@ Shell script installing base software for Raspberry Pi's.
 
 ##### pip3 modules installs:
 * RPi.GPIO
+* numpy
 
 <br/>
 
