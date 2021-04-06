@@ -20,7 +20,7 @@ Shell script installing base software for Raspberry Pi's.
 
 ## Usage
 ###### Step 1
-in root directory install shell script:
+In root directory install shell script:
 ```sh
 curl -o base.sh https://raw.githubusercontent.com/matiasvlevi/Base-Install/main/base.sh
 ```
