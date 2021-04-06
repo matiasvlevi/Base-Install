@@ -21,14 +21,8 @@ Shell script installing base software for Raspberry Pi's.
 
 ## Usage
 ###### Step 1
-In root directory install shell script:
+In root directory install & Run shell script
 ```sh
-curl -o base.sh https://raw.githubusercontent.com/matiasvlevi/Base-Install/main/base.sh
+curl -o base.sh https://raw.githubusercontent.com/matiasvlevi/Base-Install/main/base.sh ; sudo sh base.sh
 ```
-###### Step 2
-Run shell script:
-```sh
-sudo sh base.sh
-```
-
 Takes ~5 to 15 minutes to complete installation.
