@@ -1,5 +1,5 @@
-# Base RPi software install shell script
-
+# Base RPi software install
+Shell script installing base software on Raspberry Pi's.
 <br/>
 
 ##### Enables:
