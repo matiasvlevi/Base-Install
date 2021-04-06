@@ -1,4 +1,10 @@
 
+# Update
+echo ;
+echo ;
+echo "Updating Pi..."
+sudo apt-get update ;
+
 # Installing Base software
 echo "Installing Base dependenices...";
 
