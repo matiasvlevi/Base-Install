@@ -41,7 +41,7 @@ if ! type "git" > /dev/null; then
     echo "git successfully installed." ;
     echo "Try 'git --version'" ;
 else
-    echo "git allready installed." ;
+    echo "git already installed." ;
     echo "Try 'git --version'" ;
 fi
 echo ;
@@ -53,7 +53,7 @@ if ! type "nmap" > /dev/null; then
     echo "nmap successfully installed." ;
     echo "Try 'nmap -v'" ;
 else
-    echo "nmap allready installed." ;
+    echo "nmap already installed." ;
     echo "Try 'nmap -v'" ;
 fi
 echo ;
@@ -74,7 +74,7 @@ if ! type "node" > /dev/null; then
     echo "Installed npm & node.js" ;
     echo "Try 'node -v' or 'npm -v'." ;
 else
-    echo "npm & node.js allready installed." ;
+    echo "npm & node.js already installed." ;
     echo "Try 'node -v' or 'npm -v'." ;
 fi
 echo ;
