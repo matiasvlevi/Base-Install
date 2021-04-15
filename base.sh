@@ -60,7 +60,7 @@ echo ;
 
 # Install nodejs & npm
 if ! type "node" > /dev/null; then
-    echo "Installing Node.js v9.7.1" ;
+    echo "Installing Node.js v9.7.1 (armv6l)" ;
     # Installing from armv6l distributions.
     curl -o node-v9.7.1-linux-armv6l.tar.gz https://nodejs.org/dist/v9.7.1/node-v9.7.1-linux-armv6l.tar.gz ;
     tar -xzf node-v9.7.1-linux-armv6l.tar.gz ;
