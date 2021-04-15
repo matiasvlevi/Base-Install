@@ -21,6 +21,7 @@ Shell script installing base software for Raspberry Pi's.
 
 ## Usage
 In root directory install & Run shell script
+<br/>
 
 ### Install all
 ```sh
