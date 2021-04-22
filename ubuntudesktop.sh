@@ -11,3 +11,5 @@ sudo apt-get install nodejs
 
 # Git 
 sudo apt-get install git
+
+sudo rm setup.sh
