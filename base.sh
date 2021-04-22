@@ -81,4 +81,4 @@ echo ;
 echo "Installed all base software."
 
 # Remove self
-sudo rm base.sh
+sudo rm setup.sh
