@@ -19,4 +19,4 @@ else
 fi
 
 # Remove self
-sudo rm node.sh
+sudo rm setup.sh
