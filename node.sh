@@ -1,5 +1,5 @@
 # Install nodejs & npm
-    echo "Installing Node.js v9.7.1 (armv6l)" ;
+    echo "Installing Node.js v10.16.3 (armv6l)" ;
     # Installing from armv6l distributions.
     curl -o node-v10.16.3-linux-armv6l.tar.gz https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-armv6l.tar.xz ;
     tar -xzf node-v10.16.3-linux-armv6l.tar.xz ;
